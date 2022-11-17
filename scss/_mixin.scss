@@ -1,0 +1,35 @@
+@mixin flex_sbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin space_bet {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin font_swr {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@mixin font_swb {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@mixin fonts_lineh {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@mixin fonts_textt {
+  font-size: 24px;
+  text-transform: uppercase;
+}

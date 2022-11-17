@@ -1,0 +1,389 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 0;
+}
+header .container {
+  width: 80%;
+}
+header .container .header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .header-wrapper nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+header .container .header-wrapper nav ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .header-wrapper nav ul li {
+  list-style: none;
+}
+header .container .header-wrapper nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+header .container .header-wrapper nav ul li a:hover {
+  color: #e63111;
+}
+
+.laws {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.laws .container {
+  width: 80%;
+}
+.laws .container .law-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.laws .container .law-cards .law-card {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 115px 25px;
+  color: white;
+}
+.laws .container .law-cards .law-card h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.laws .container .law-cards .law-card img {
+  width: 60%;
+  align-self: center;
+  margin: 3px 0 30px;
+}
+.laws .container .law-cards .law-card p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.laws .container .law-cards .law-card .btn {
+  display: flex;
+  justify-content: center;
+}
+.laws .container .law-cards .law-card .btn button {
+  background-color: white;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  padding: 8px 20px 9px;
+  margin-top: 20px;
+}
+.laws .container .law-cards .law-card .btn button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e63111;
+  font-size: 14px;
+  font-weight: 700;
+}
+.laws .container .law-cards .law-card-1 {
+  background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/law/1.webp);
+}
+.laws .container .law-cards .law-card-2 {
+  background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/law/2.webp);
+}
+.laws .container .law-cards .law-card-3 {
+  background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/law/3.webp);
+}
+
+.service {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+  padding: 96px 0;
+}
+.service .container {
+  width: 80%;
+}
+.service .container .title {
+  text-align: center;
+}
+.service .container .title h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.service .container .title img {
+  width: 25%;
+  align-self: center;
+  margin: 10px 0 40px;
+}
+.service .container .service-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.service .container .service-cards .service-card {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  width: 32%;
+}
+.service .container .service-cards .service-card .service-info h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+}
+.service .container .service-cards .service-card .service-info .service-underline {
+  width: 55px;
+  height: 1px;
+  background-color: #333333;
+  margin-bottom: 18px;
+}
+.service .container .service-cards .service-card .service-info p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-bottom: 0;
+}
+
+.attornies {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.attornies .container {
+  width: 80%;
+}
+.attornies .container .title {
+  text-align: center;
+}
+.attornies .container .title h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.attornies .container .title img {
+  width: 25%;
+  align-self: center;
+  margin: 10px 0 40px;
+}
+.attornies .container .specialists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.attornies .container .specialists .specialist {
+  width: 17%;
+  background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/team/bg.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  padding: 30px;
+}
+.attornies .container .specialists .specialist .specialist-img img {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+.attornies .container .specialists .specialist .specialist-bio h3 {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.attornies .container .specialists .specialist .specialist-bio h5 {
+  color: #666666;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.attornies .container .specialists .specialist .specialist-bio p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.attornies .container .specialists .specialist .specialist-bio ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0 0;
+}
+.attornies .container .specialists .specialist .specialist-bio ul li {
+  border: 1px solid #bfbfbf;
+  padding: 8px;
+  border-radius: 50%;
+}
+.attornies .container .specialists .specialist .specialist-bio ul li a {
+  text-decoration: none;
+}
+.attornies .container .specialists .specialist .specialist-bio ul li a i {
+  color: #7e7e7e;
+  width: 15px;
+  height: 10px;
+}
+.attornies .container .specialists .specialist .specialist-bio ul li a i:hover {
+  color: #e63111;
+}
+
+.news {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 40px;
+}
+.news .container {
+  width: 80%;
+}
+.news .container .title {
+  text-align: center;
+}
+.news .container .title h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.news .container .title img {
+  width: 25%;
+  align-self: center;
+  margin: 10px 0 40px;
+}
+.news .container .news-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news .container .news-cards .news-card {
+  width: 32%;
+}
+.news .container .news-cards .news-card .news-img {
+  width: 100%;
+}
+.news .container .news-cards .news-card .news-img img {
+  width: 100%;
+}
+.news .container .news-cards .news-card .news-info {
+  padding: 0px 30px 15px;
+  border: 1px solid #eeeeee;
+  border-top: 0;
+}
+.news .container .news-cards .news-card .news-info h2 {
+  border-bottom: 1px solid #eeeeee;
+  line-height: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.news .container .news-cards .news-card .news-info h2 a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.news .container .news-cards .news-card .news-info p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+}
+.news .container .news-cards .news-card .news-info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0;
+}
+.news .container .news-cards .news-card .news-info ul li {
+  color: #666666;
+  font-size: 12px;
+  margin-right: 41px;
+}
+.news .container .news-cards .news-card .news-info ul li i {
+  color: #666666;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.news .container .news-cards .news-card .news-info ul li img {
+  margin-right: 10px;
+}
+.news .container .news-cards .news-card .news-info ul li a i {
+  color: #e63111;
+  font-size: 20px;
+  margin-right: 0px;
+}
+.news .container .news-cards .news-card .news-info ul li:nth-child(3) {
+  margin-right: 0;
+}
+
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}/*# sourceMappingURL=style.css.map */

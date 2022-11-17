@@ -1,0 +1,57 @@
+.laws {
+  width: 100%;
+  @include center();
+  padding: 50px 0;
+  .container {
+    width: 80%;
+    .law-cards {
+      width: 100%;
+      @include flex_sbc();
+      .law-card {
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 115px 25px;
+        color: white;
+        h1 {
+          @include fonts_textt();
+        }
+        img {
+          width: 60%;
+          align-self: center;
+          margin: 3px 0 30px;
+        }
+        p {
+          @include font_swb();
+          line-height: 24px;
+        }
+        .btn {
+          @include center();
+          button {
+            background-color: white;
+            line-height: 1.5;
+            border: 1px solid transparent;
+            padding: 8px 20px 9px;
+            margin-top: 20px;
+            a {
+              text-decoration: none;
+              text-transform: uppercase;
+              color: $red;
+              @include font_swb();
+            }
+          }
+        }
+      }
+      .law-card-1 {
+        background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/law/1.webp);
+      }
+      .law-card-2 {
+        background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/law/2.webp);
+      }
+      .law-card-3 {
+        background-image: url(https://template.hasthemes.com/victorid/victorid/assets/images/law/3.webp);
+      }
+    }
+  }
+}

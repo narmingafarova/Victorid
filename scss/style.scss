@@ -1,0 +1,14 @@
+@import "reset";
+@import "mixin";
+@import "var";
+
+// Sections
+@import "sections/header";
+@import "sections/laws";
+@import "sections/services";
+@import "sections/attornies";
+@import "sections/news";
+
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}

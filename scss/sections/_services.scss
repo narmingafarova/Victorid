@@ -1,0 +1,51 @@
+.service {
+  width: 100%;
+  @include center();
+  background-color: #f6f6f6;
+  padding: 96px 0;
+  .container {
+    width: 80%;
+    .title {
+      text-align: center;
+      h1 {
+        @include fonts_textt();
+        color: $black_grey;
+      }
+      img {
+        width: 25%;
+        align-self: center;
+        margin: 10px 0 40px;
+      }
+    }
+    .service-cards {
+      width: 100%;
+      @include flex_sbc();
+      flex-wrap: wrap;
+      row-gap: 50px;
+      .service-card {
+        display: flex;
+        column-gap: 30px;
+        width: 32%;
+        .service-info {
+          h3 {
+            @include font_swb();
+            color: $black_grey;
+            text-transform: uppercase;
+            padding-bottom: 18px;
+          }
+          .service-underline {
+            width: 55px;
+            height: 1px;
+            background-color: $black_grey;
+            margin-bottom: 18px;
+          }
+          p {
+            @include fonts_lineh();
+            color: $dark_grey;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
